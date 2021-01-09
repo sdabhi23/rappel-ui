@@ -1,0 +1,42 @@
+.smooth-dnd-container {
+  height: 95vh !important;
+}
+
+.smooth-dnd-container .vertical {
+  width: 350px;
+}
+
+.react-trello-lane {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smooth-dnd-draggable-wrapper {
+  width: 350px;
+}
+
+.ql-editor {
+  height: 40vh !important;
+  overflow-y: scroll !important;
+}
+
+.ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+.ql-snow.ql-toolbar {
+  display: block;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.dashboard-main {
+  background-color: #e3e3e3;
+}
+
+.menu {
+  margin: 0 !important;
+}

@@ -1,0 +1,25 @@
+.home-main {
+  height: 100vh;
+  padding-top: 20vh;
+  padding-left: 20vh;
+  background-color: #e3e3e3;
+}
+
+.home-main > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.home-main > div > img {
+  margin-right: 1em;
+}
+
+.home-main > div > h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.home-main > div > button {
+  margin-right: 1em !important;
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Rappel",
+  "name": "An idea management tool. Inspired from kanban boards and integrated with GitHub.",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "336x336"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ae2929",
+  "background_color": "#e3e3e3"
+}
