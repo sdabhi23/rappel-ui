@@ -1,0 +1,28 @@
+spec:
+  name: rappel-personal-ui
+  static_sites:
+  - build_command: npm run build
+    catchall_document: index.html
+    environment_slug: node-js
+    envs:
+    - key: REACT_APP_API_BASE
+      scope: BUILD_TIME
+      value: https://backend-app-url.ondigitalocean.app/api/
+    - key: REACT_APP_REDIRECT_URI
+      scope: BUILD_TIME
+      value: https://frontend-app-url.ondigitalocean.app/onboard/github
+    - key: REACT_APP_GH_CLIENT_ID
+      scope: BUILD_TIME
+      value: your-github-client-id
+    - key: REACT_APP_SCOPE
+      scope: BUILD_TIME
+      value: repo
+    - key: REACT_APP_STORAGE_NAME
+      scope: BUILD_TIME
+      value: storageK3y
+    git:
+      branch: master
+      repo_clone_url: https://github.com/sdabhi23/rappel-ui.git
+    name: rappel-ui
+    routes:
+    - path: /
