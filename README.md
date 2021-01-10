@@ -1,5 +1,7 @@
 # Rappel
 
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sdabhi23/rappel-ui/tree/master)
+
 An idea management tool, inspired from kanban boards and integrated with GitHub
 
 This repo only contains the frontend for the app. Please check [sdabhi23/rappel](https://github.com/sdabhi23/rappel)
